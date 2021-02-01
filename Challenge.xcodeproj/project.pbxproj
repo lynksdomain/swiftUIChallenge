@@ -15,6 +15,17 @@
 		39512A6E25C4BF93001DD397 /* Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39512A6C25C4BF93001DD397 /* Challenge.xcdatamodeld */; };
 		39512A7925C4BF94001DD397 /* ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39512A7825C4BF94001DD397 /* ChallengeTests.swift */; };
 		39512A8425C4BF94001DD397 /* ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39512A8325C4BF94001DD397 /* ChallengeUITests.swift */; };
+		39512A9B25C4C4B0001DD397 /* AddProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39512A9A25C4C4B0001DD397 /* AddProjectRow.swift */; };
+		39512AA325C5C96D001DD397 /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39512AA225C5C96D001DD397 /* AddProjectView.swift */; };
+		39512AA825C5E6C7001DD397 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39512AA725C5E6C7001DD397 /* CircleView.swift */; };
+		3970CACC25C7A18200CF0A61 /* KeyboardHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970CACB25C7A18200CF0A61 /* KeyboardHost.swift */; };
+		3970CAD125C7A1B700CF0A61 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970CAD025C7A1B700CF0A61 /* ViewExtensions.swift */; };
+		3970CAD925C7A28500CF0A61 /* BackgroundBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970CAD825C7A28500CF0A61 /* BackgroundBlurView.swift */; };
+		398D718925C77C0E0059385C /* ProjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D718825C77C0E0059385C /* ProjectDetailsView.swift */; };
+		3996001F25C70BA800666F2B /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996001E25C70BA800666F2B /* DatePickerView.swift */; };
+		39DCDBBF25C76DA0007758A0 /* AddHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCDBBE25C76DA0007758A0 /* AddHeaderView.swift */; };
+		39DCDBC425C770AD007758A0 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCDBC325C770AD007758A0 /* DateButton.swift */; };
+		39F17C7C25C64E9400D1AAF1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F17C7B25C64E9400D1AAF1 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		39512A7F25C4BF94001DD397 /* ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39512A8325C4BF94001DD397 /* ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeUITests.swift; sourceTree = "<group>"; };
 		39512A8525C4BF94001DD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39512A9A25C4C4B0001DD397 /* AddProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectRow.swift; sourceTree = "<group>"; };
+		39512AA225C5C96D001DD397 /* AddProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		39512AA725C5E6C7001DD397 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		3970CACB25C7A18200CF0A61 /* KeyboardHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHost.swift; sourceTree = "<group>"; };
+		3970CAD025C7A1B700CF0A61 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		3970CAD825C7A28500CF0A61 /* BackgroundBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundBlurView.swift; sourceTree = "<group>"; };
+		398D718825C77C0E0059385C /* ProjectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsView.swift; sourceTree = "<group>"; };
+		3996001E25C70BA800666F2B /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		39DCDBBE25C76DA0007758A0 /* AddHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeaderView.swift; sourceTree = "<group>"; };
+		39DCDBC325C770AD007758A0 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		39F17C7B25C64E9400D1AAF1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +121,15 @@
 		39512A6025C4BF91001DD397 /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				3970CADD25C7A2EC00CF0A61 /* HelperViews */,
 				39512A6125C4BF91001DD397 /* ChallengeApp.swift */,
 				39512A6325C4BF91001DD397 /* ContentView.swift */,
+				39512AA225C5C96D001DD397 /* AddProjectView.swift */,
+				398D718825C77C0E0059385C /* ProjectDetailsView.swift */,
 				39512A6525C4BF93001DD397 /* Assets.xcassets */,
-				39512A6A25C4BF93001DD397 /* Persistence.swift */,
 				39512A6F25C4BF93001DD397 /* Info.plist */,
 				39512A6C25C4BF93001DD397 /* Challenge.xcdatamodeld */,
+				39512A6A25C4BF93001DD397 /* Persistence.swift */,
 				39512A6725C4BF93001DD397 /* Preview Content */,
 			);
 			path = Challenge;
@@ -134,6 +159,38 @@
 				39512A8525C4BF94001DD397 /* Info.plist */,
 			);
 			path = ChallengeUITests;
+			sourceTree = "<group>";
+		};
+		3970CADD25C7A2EC00CF0A61 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				3970CACB25C7A18200CF0A61 /* KeyboardHost.swift */,
+				3970CAD025C7A1B700CF0A61 /* ViewExtensions.swift */,
+				3970CADE25C7A35800CF0A61 /* ProjectPage */,
+				3970CADF25C7A36300CF0A61 /* AddProjectPage */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		3970CADE25C7A35800CF0A61 /* ProjectPage */ = {
+			isa = PBXGroup;
+			children = (
+				39512A9A25C4C4B0001DD397 /* AddProjectRow.swift */,
+			);
+			path = ProjectPage;
+			sourceTree = "<group>";
+		};
+		3970CADF25C7A36300CF0A61 /* AddProjectPage */ = {
+			isa = PBXGroup;
+			children = (
+				3970CAD825C7A28500CF0A61 /* BackgroundBlurView.swift */,
+				39DCDBBE25C76DA0007758A0 /* AddHeaderView.swift */,
+				39F17C7B25C64E9400D1AAF1 /* ImagePicker.swift */,
+				39512AA725C5E6C7001DD397 /* CircleView.swift */,
+				39DCDBC325C770AD007758A0 /* DateButton.swift */,
+				3996001E25C70BA800666F2B /* DatePickerView.swift */,
+			);
+			path = AddProjectPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +322,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39512AA325C5C96D001DD397 /* AddProjectView.swift in Sources */,
 				39512A6B25C4BF93001DD397 /* Persistence.swift in Sources */,
 				39512A6E25C4BF93001DD397 /* Challenge.xcdatamodeld in Sources */,
+				39DCDBBF25C76DA0007758A0 /* AddHeaderView.swift in Sources */,
+				3970CAD925C7A28500CF0A61 /* BackgroundBlurView.swift in Sources */,
+				398D718925C77C0E0059385C /* ProjectDetailsView.swift in Sources */,
+				39DCDBC425C770AD007758A0 /* DateButton.swift in Sources */,
+				3996001F25C70BA800666F2B /* DatePickerView.swift in Sources */,
+				3970CACC25C7A18200CF0A61 /* KeyboardHost.swift in Sources */,
 				39512A6425C4BF91001DD397 /* ContentView.swift in Sources */,
 				39512A6225C4BF91001DD397 /* ChallengeApp.swift in Sources */,
+				39F17C7C25C64E9400D1AAF1 /* ImagePicker.swift in Sources */,
+				39512AA825C5E6C7001DD397 /* CircleView.swift in Sources */,
+				3970CAD125C7A1B700CF0A61 /* ViewExtensions.swift in Sources */,
+				39512A9B25C4C4B0001DD397 /* AddProjectRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
